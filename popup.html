@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Getting Started Extension's Popup</title>
+
+		<style type="text/css">
+		body {
+			width: 800px;
+			font-family: sans-serif;
+			font-size: 12px;
+		}
+		label {
+			width: 200px;
+			display: inline-block;
+			font-weight: bold;
+			text-align: right;
+			padding: 3px;
+		}
+		input {
+			width: 550px;
+			border: 1px solid #ddd;
+			padding: 3px;
+		}
+		.wrapper-button {
+			margin-top: 10px;
+			text-align: center;
+		}
+		a {
+			box-sizing: border-box;
+			max-width: 98%;
+			word-wrap: break-word;
+			display: inline-block;
+		}
+		button {
+			width: 100px;
+			padding: 5px;
+		}
+		</style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+		<section id="wrapper">
+		</section>
+		<section class="wrapper-button">
+			<button id="go">Go</button>
+		</section>
+		<a href="#" id="newUrl"></a>
+  </body>
+</html>
