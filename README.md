@@ -8,6 +8,8 @@ Available here: https://chrome.google.com/webstore/detail/url-editor/dadjkjhedlj
 ###Todo
 
 - add/remove query parameters
+- multi window support
+- zero parameters url handling
 
 ###For developers:
 
